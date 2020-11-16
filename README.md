@@ -26,18 +26,19 @@ $ cd flask-microblog
 If you want to use virtualenv (on Windows):
 
 ```
-$ python3 -m venv env
+$ python -m venv env
 $ venv\Scripts\activate
 ```
 
 If you want to use virtualenv (on MacOS/Linux):
 
 ```
-$ python -m venv venv
+$ python3 -m venv venv
 $ source env/bin/activate
 ```
 
 Install dependencies, set FLASK-APP environment variable and run app (on Windows):
+
 On Windows
 
 ```

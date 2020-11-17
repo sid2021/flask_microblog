@@ -137,7 +137,7 @@ def load_user(id):
 class Post(SearchableMixin, db.Model):
     __searchable__ = ["body"]
     id = db.Column(db.Integer, primary_key=True)
-    body = db.Column(db.String(600))
+    body = db.Column(db.String(1200))
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"))
     language = db.Column(db.String(5))

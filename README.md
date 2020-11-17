@@ -1,10 +1,8 @@
 # Microblog Application
 
-This is a microblog application utilizing Python Flask framework for backend and vanilla JavaScript/HLM/CSS for frontend.
+This is a microblog application utilizing Python Flask framework for backend and avanilla JavaScript/HLM/CSS for frontend.
 
 This app is based on a fantastic [Flask Mega-Tutorial by Miguel Grinberg](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) which I highly recommend you to check out.
-
-The current version is still a _work in progress_. I will be adding additional functionalities in the future.
 
 ## Built With
 
@@ -12,6 +10,9 @@ The current version is still a _work in progress_. I will be adding additional f
 - [SQLAlchemy](https://www.sqlalchemy.org/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
+- [Elasticsearch](https://www.elastic.co/)
+- [Microsoft Translate API](https://azure.microsoft.com/pl-pl/services/cognitive-services/translator/)
+- [Bootstrap](https://getbootstrap.com/)
 - JavaScript
 - HTML5
 - CSS3

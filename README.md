@@ -1,3 +1,10 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://blog-app2021-flask.herokuapp.com/)
+
+Create a new user or use an already existing account:
+
+- user: **admin**
+- password: **admin**
+
 # Microblog Application
 
 This is a microblog application utilizing Python Flask framework for backend and avanilla JavaScript/HLM/CSS for frontend.

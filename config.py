@@ -11,8 +11,6 @@ class Config(object):
         "DATABASE_URL"
     ) or "sqlite:///" + os.path.join(basedir, "app.db")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    # Add email server details to allow email notofication
-    # about error on the production server
     MAIL_SERVER = os.environ.get("MAIL_SERVER")
     MAIL_PORT = int(os.environ.get("MAIL_PORT") or 25)
     MAIL_USE_TLS = os.environ.get("MAIL_USE_TLS") is not None
@@ -21,4 +19,5 @@ class Config(object):
     ADMINS = ["your-email@example.com"]
     LANGUAGES = ["en", "es"]
     MS_TRANSLATOR_KEY = os.environ.get("MS_TRANSLATOR_KEY")
+    ELASTICSEARCH_URL = os.environ.get("ELASTICSEARCH_URL")
     POSTS_PER_PAGE = 25

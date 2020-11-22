@@ -7,7 +7,7 @@ Create a new user or use an already existing account:
 
 # Microblog Application
 
-This is a microblog application utilizing Python Flask framework for backend and avanilla JavaScript/HLM/CSS for frontend.
+This is a microblog application utilizing Python Flask framework for backend and vanilla JavaScript/HLM/CSS for frontend.
 
 This app is based on a fantastic [Flask Mega-Tutorial by Miguel Grinberg](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) which I highly recommend you to check out.
 
@@ -19,6 +19,7 @@ This app is based on a fantastic [Flask Mega-Tutorial by Miguel Grinberg](https:
 - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
 - [Elasticsearch](https://www.elastic.co/)
 - [Microsoft Translate API](https://azure.microsoft.com/pl-pl/services/cognitive-services/translator/)
+- [Redis](https://python-rq.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - JavaScript
 - HTML5
@@ -35,7 +36,7 @@ If you want to use virtualenv (on Windows):
 
 ```
 $ python -m venv env
-$ venv\Scripts\activate
+$ venv\scripts\activate
 ```
 
 If you want to use virtualenv (on MacOS/Linux):
@@ -47,7 +48,7 @@ $ source env/bin/activate
 
 Install dependencies, set FLASK-APP environment variable and run app (on Windows):
 
-On Windows
+On Windows (powershell):
 
 ```
 $ pip install -r requirements.txt

@@ -9,7 +9,7 @@ Create a new user or use an already existing account:
 
 This is a microblog application utilizing Python Flask framework for backend and vanilla JavaScript/HLM/CSS for frontend.
 
-This app is based on a fantastic [Flask Mega-Tutorial by Miguel Grinberg](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) which I highly recommend you to check out.
+This app is based on [Flask Mega-Tutorial by Miguel Grinberg](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) which I highly recommend you to check out.
 
 ## Built With
 
